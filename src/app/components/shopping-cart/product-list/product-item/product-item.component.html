@@ -1,0 +1,20 @@
+<div class="card-body">
+  <p class ="card-text">{{ productItem.nama }}</p>
+</div>
+<div class="card mb-4 shadow-sm">
+  <img class="bd-placeholder-img card-img-top p-2" width="100%" [src]="productItem.imageUrl" />
+
+  <div class="card-body">
+    <p class="card-text">
+      <strong>{{ productItem.price | currency:'IDR' }}</strong>
+    </p>
+     <p class="card-text">{{ productItem.description | slice: 0:80 }}</p> <!-- slice buat benerin kotak gitu pipe dah pokoknye -->
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-primary product-btn" (click)="handleAddToCart()">Add to
+          Cart</button>
+          <a class="btn btn-sm btn-secondary product-btn" href="/product/:id">Detail</a>
+      </div>
+    </div>
+  </div>
+</div>

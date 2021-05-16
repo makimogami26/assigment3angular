@@ -1,0 +1,5 @@
+<div class="cart-item">
+  <span>{{ cartItem.productNama }}</span> X
+  <span>{{ cartItem.jumlah }}</span>:
+  <strong>{{ (cartItem.jumlah * cartItem.price) | currency:'IDR' }}</strong>
+</div>

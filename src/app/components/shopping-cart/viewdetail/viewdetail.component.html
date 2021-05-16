@@ -1,0 +1,17 @@
+<div class="card-body">
+  <span>{{this.detail.nama}}</span>
+</div>
+<div class="card mb-4 shadow-sm">
+  <img class="bd-placeholder-img card-img-top p-2" width="100%" [src]="" />
+
+  <div class="card-body">
+    <p class="card-text">
+      <strong>{{ this.detail.price | currency:'IDR' }}</strong>
+    </p>
+     <p class="card-text">{{ this.detail.description}}</p> <!-- slice buat benerin kotak gitu pipe dah pokoknye -->
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">    
+      </div>
+    </div>
+  </div>
+</div>

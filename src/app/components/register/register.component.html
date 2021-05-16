@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Daftar Gan </h2>
+            </div>
+            <div class="card-body">
+
+                <form (submit)="onregister(registerForm)"  #registerForm="ngForm">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input Input type="email" class="form-control" [ngClass]="{'is-invalid': email.touched && email.invalid}" name="email" #email="ngModel" [(ngModel)]="model.email" required />
+                        <span class ="invalid-feedback">Email tidak boleh kosong</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input Input type="password" class="form-control" [ngClass]="{'is-invalid': password.touched && password.invalid}"name="password" #password="ngModel" [(ngModel)]="model.password" required/>
+                        <span class ="invalid-feedback">Passowrd tidak boleh kosong</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nama">Nama  </label>
+                        <input id ="nama" class="form-control" [ngClass]="{'is-invalid': nama.touched && nama.invalid}"name="nama" #nama="ngModel" [(ngModel)]="model.nama" required/>
+                        <span class ="invalid-feedback">Nama tidak boleh kosong</span>
+                    </div>
+        
+                    <button class="btn btn-primary btn-block">Register</button>
+        
+                </form>
+
+
+            </div>
+        </div>
+        
+    </div>
+</div>

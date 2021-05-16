@@ -1,0 +1,40 @@
+{
+  "product": [
+    {
+      "nama": "Piring Imay",
+      "description": "Piring Test Static",
+      "price": 100,
+      "imageUrl": "https://images.tokopedia.net/img/cache/900/product-1/2019/12/23/1590188/1590188_0813c513-16f1-4fea-9d5f-41d98451cfb2_1134_1134.jpg"
+    },
+    {
+      "nama": "Jual Temen Ngoding",
+      "description": "Bisanye makan doang ama ngabisin beras dirumah WKWKWK bisa disuruh kerja rodi anti kecewa GAN DIORDER",
+      "price": 200,
+      "imageUrl": "https://scontent-cgk1-1.xx.fbcdn.net/v/t1.18169-9/11143186_10205803541150847_7077298260411793537_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=174925&_nc_eui2=AeGUnVLXF6EUO1-R4cc_ImWCNNSQWNHm3pw01JBY0ebenLaDbtCfCxgJ5YfQ4QXTmhk&_nc_ohc=duLslGFHFdAAX_pqKIt&_nc_ht=scontent-cgk1-1.xx&oh=9e11bf334ccc3f3acb3ad2f959ada23e&oe=60A5F18A"
+    },
+    {
+      "nama": "Tiger 2.5L",
+      "description": "Termos kaca mantapTermos Tiger2.5L",
+      "price": 300,
+      "imageUrl": "https://images.tokopedia.net/img/cache/900/product-1/2018/7/1/11779401/11779401_12fff5ea-9b50-4756-8cdb-9659576e08b0_530_530.jpg"
+    },
+    {
+      "nama": "Luminarc octime",
+      "description": "Gelas Luminarc",
+      "price": 400,
+      "imageUrl": "https://images.tokopedia.net/img/cache/900/product-1/2018/2/5/1590188/1590188_091965b6-f7a1-4653-9992-ad0cf1055cb4"
+    },
+    {
+      "nama": "CD Fallguys",
+      "description": "CD bajakan Installnye di steam ye",
+      "price": 500,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/200-square/VqbcmM/2020/10/2/0b665699-6715-4296-8e5d-2dc25bf5c158.jpg"
+    },
+    {
+      "nama": "produk 6",
+      "description": "CD bajakan Installnye di steam ye",
+      "price": 500,
+      "imageUrl": "https://ecs7-p.tokopedia.net/img/cache/200-square/VqbcmM/2020/10/2/0b665699-6715-4296-8e5d-2dc25bf5c158.jpg"
+    }
+  ]
+}
